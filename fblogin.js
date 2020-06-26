@@ -11,9 +11,13 @@ var fb_permissions = "COMMA_SEPERATED_LIST_OF_PERMISSIONS";  // Ex. fb_permissio
 ///////////////////////////////////////////////////
 
 window.onload = function () {  //  Placeholder function - starts the application on load
-  initSend();
+  initSend();  //  Main function.  Will produce fbAuthentication
 }
-  
+
+// fbAuthentication is the result of this script.  It contains the "access_token", "data_access_expiration_time", and "expires_in" response data as JSON.
+// Access the elements using fbAuthentication.access_token, fbAuthentication.data_access_expiration_time, fbAuthentication.expires_in
+var fbAuthentication;
+
 var retries = 0;
 // https://developers.facebook.com/docs/facebook-login/for-devices#tech-step1
 function initSend() {

@@ -3,7 +3,7 @@
 //              -= Config Block =-               //
 // Change the following strings to match your    //                                                                                                                           // Facebook Developer account information.       //
 ///////////////////////////////////////////////////
-vvar fb_app_id = "YOUR_APP_ID";                              // Ex. var fb_app_id = "1234567890";
+var fb_app_id = "YOUR_APP_ID";                               // Ex. var fb_app_id = "1234567890";
 var fb_client_token = "CLIENT_TOKEN";                        // Ex. fb_client_token = "abc123def456fed789cba0";
 var fb_permissions = "COMMA_SEPERATED_LIST_OF_PERMISSIONS";  // Ex. fb_permissions = "public_profile,email";
 ///////////////////////////////////////////////////
